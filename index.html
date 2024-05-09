@@ -48,6 +48,8 @@ h1 {
     font-family: greycliff;
     font-size: 40px;
     color: white;
+    margin: 0;
+    padding: 0;
   }
   
    body {
@@ -71,24 +73,22 @@ background: linear-gradient(90deg, aqua, blue, magenta);
 }
 
 .buy {
-     background: rgb(0,255,48);
-background: linear-gradient(90deg, aqua, blue, magenta);
-  overflow: hidden;
-  border-radius: 50px;
-  border: double 2px transparent;
-  border-radius: 50px;
-  background-image: linear-gradient(black, black), 
-                    linear-gradient(45deg, aqua, blue, magenta);
-  background-origin: border-box;
-  background-clip: content-box, border-box;
-  width: 100px;
-  height: 50px;
-  position: absolute;
-   top: 650px;
-  right: 30px;
-  left: 800px;
-  color: white;
-} 
+    background: rgb(0,255,48);
+    background: linear-gradient(90deg, aqua, blue, magenta);
+    overflow: hidden;
+    border-radius: 50px;
+    border: double 2px transparent;
+    border-radius: 50px;
+    background-image: linear-gradient(black, black), 
+                        linear-gradient(45deg, aqua, blue, magenta);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
         
 spline-viewer {
 text-align: left;
